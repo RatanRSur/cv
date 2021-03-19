@@ -1,12 +1,12 @@
 \documentclass[overlapped]{res}
 \newcommand{\latex}{\LaTeX\xspace}
-\textwidth=5.6in % increase text width to get smaller right margin
+\textwidth=7.0in % increase text width to get smaller right margin
 \textheight=10in
 \usepackage{placeins}
 \usepackage{textgreek}
 \usepackage{hyperref}
 \addtolength{\topmargin}{-.5in}
-%\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\oddsidemargin}{-.5in}
 
 \begin{document}
 
@@ -19,57 +19,62 @@
 
     \section{Experiences}
 
-    {\bf ConsenSys/PegaSys - \href{https://www.github.com/Hyperledger/Besu}{\underline{\em Hyperledger Besu}}} \hfill May 2019 - Present \\
-    {\em Blockchain Protocol \& Software Engineer\/} - {\em Java}
+    {\bf ConsenSys - \href{https://www.github.com/Hyperledger/Besu}{\underline{\em Hyperledger Besu}}} \hfill May 2019 - Present \\
+    {\em Senior Blockchain Protocol Engineer\/}
     \begin{itemize} \itemsep-2pt
-        \item Currently working on implementing Beam Sync, the next generation of syncing algorithms.
+        \item Coordinated or implemented Ethereum Improvement Proposals (EIPs) for Ethereum's {\em Berlin} network upgrade - {\em Java}
         \item
-            Implemented World State Trie Pruning, a process necessary to prevent a blockchain client from using an unbounded amount of storage.
+            Participated in Ethereum protocol development calls, discussing design of EIPs and research-phase stateless-client protocols
         \item
-            Contributed to {\em Ethereum\/} 1.x community calls, discussing design of stateless client protocols.
+          Implemented State Trie Pruning, preventing local storage of Ethereum state from growing without bound - {\em Java}
+        \item Currently implementing internal prediction markets for OKR forecasting
+        \item Currently organizes effective altruism, rationality, and philosophy book club
     \end{itemize}
 
     {\bf Recurse Center} \hfill Sep 2018 - Feb 2019 \\
     {\em Participant\/}
     \begin{itemize} \itemsep-2pt
         \item
-            Wrote \href{https://www.github.com/ratanrsur/raicoin}{\underline{raicoin}}, a toy cryptocurrency, as a way to learn about blockchain.
-            Used libraries only to manage TCP connections and sign/verify messages. - {\em Scala+Akka}
-        \item
-            Implemented proof-of-work mining and all consensus-reaching behavior, such as peer discovery and block gossip.
+          Wrote \href{https://www.github.com/ratanrsur/raicoin}{\underline{raicoin}}, a toy cryptocurrency, as a blockchain self-education - {\em Scala+Akka}
+        \begin{itemize} \itemsep-2pt
+          \item
+            Implemented proof-of-work mining and all consensus behavior, such as peer discovery and block gossip
+          \item Used libraries only to manage TCP connections and sign/verify messages
+        \end{itemize}
+
+      \item Implemented {\em RandHound\/} from \href{Scalable Bias-Resistant Distributed Randomness}{\underline{{\em Scalable Bias-Resistant Distributed Randomness\/}}} - {\em Go}
     \end{itemize}
 
     {\bf Travel} \hfill Nov 2017 - Sep 2018
     \begin{itemize} \itemsep-2pt
         \item
-            Lived in Brazil for 5 months learning Portuguese.
-            Also visited India, Poland, Germany, France, and Hungary.
+            Lived in Brazil for 5 months learning Portuguese
+            Also visited India, Poland, Germany, France, and Hungary
     \end{itemize}
 
 
-    {\bf Microsoft - \href{https://www.github.com/Azure/mmlspark}{\underline{\em Microsoft Machine Learning for Apache Spark}}} \hfill Mar 2016 - Nov 2017
+    {\bf Microsoft - \href{https://www.github.com/Azure/mmlspark}{\underline{\em Microsoft Machine Learning for Apache Spark}}} \hfill Mar 2016 - Nov 2017 \\
     {\em Software Engineer}
     \begin{itemize} \itemsep-2pt
         \item
-            Generated and contributed Java bindings to Microsoft Cognitive Toolkit (CNTK). - {\em C++, Java}
+          Generated and contributed Java bindings to Microsoft Cognitive Toolkit (CNTK) - {\em C++, Java}
         \item
-            Used bindings to create CNTKModel, an Apache Spark Transformer that parallelizes evaluation of trained CNTK deep learning models over Spark clusters. - {\em Scala\/}
+          Used bindings to create CNTKModel, an Apache Spark Transformer that parallelizes evaluation of trained CNTK deep learning models over Spark clusters - {\em Scala\/}
+        %\item
+            %Helped design Spark image schema specification, something lacking from native Spark
+          %After a collaboration with Databricks, the changes were made into a pull request and merged to Spark master - {\em Scala\/}
         \item
-            Helped design Spark image schema specification, something lacking from native Spark.
-            After a collaboration with Databricks, the changes were made into a pull request and merged to Spark master. - {\em Scala\/}
-        \item
-            Prototyped PySpark Tensorflow trained-model evaluation transformer. - {\em Python\/}
+          Prototyped PySpark Tensorflow trained-model evaluation transformer - {\em Python\/}
     \end{itemize}
 
     {\bf Machine Learning Self-Study} \hfill Sep - Nov 2015
     \begin{itemize} \itemsep-2pt
         \item
-            Self taught and implemented various machine learning algorithms.
-            Most notably, feedforward multilayer perceptrons with back propagation and regularization. - {\em Julia}
+          Self taught and implemented various machine learning algorithms such as feedforward multilayer perceptrons with back propagation and regularization - {\em Julia}
     \end{itemize}
 
     %\begin{itemize} \itemsep-2pt
-        %\item Sat a 10 and two 7 day silent retreats at Dhamma Giri Vipassana International Academy, India and Insight Meditation Society, Massachusetts respectively.
+        %\item Sat a 10 and two 7 day silent retreats at Dhamma Giri Vipassana International Academy, India and Insight Meditation Society, Massachusetts respectively
     %\end{itemize}
 
     \section{Education}
@@ -80,52 +85,52 @@
     %{{\bf {\em Tactile City\/}}} \hfill 2015
     %\begin{itemize} \itemsep-2pt
         %\item
-            %Prototyped ambience-aware sound systems and collaborated with artists and architects to conceptualize a tactile language for the visually impaired to navigate urban environments. - {\em Python, Electronics\/}
+    %Prototyped ambience-aware sound systems and collaborated with artists and architects to conceptualize a tactile language for the visually impaired to navigate urban environments - {\em Python, Electronics\/}
         %\item
-            %Presented the proposal to the commissioner of the New York Mayor's Office for People with Disabilities.
+            %Presented the proposal to the commissioner of the New York Mayor's Office for People with Disabilities
         %\item
-            %Exhibited the results of the project at the {\em IdeasCity New York} festival.
+            %Exhibited the results of the project at the {\em IdeasCity New York} festival
         %\item
-            %Featured in NY1's educational program {\em It Ain't Rocket Science\/}.
+            %Featured in NY1's educational program {\em It Ain't Rocket Science\/}
     %\end{itemize}
 
     {\bf {\em HackCooper\/}} \hfill 2014 \& 2015
     \begin{itemize} \itemsep-2pt
         \item
-            Organized the first ever hackathons at The Cooper Union.
+            Organized the first ever hackathons at The Cooper Union
         \item
-            Fund-raised over \$30,000 in sponsorship across the two hackathons.
+            Fund-raised over \$30,000 in sponsorship across two hackathons
         %\item
-            %Participated in the first hackathon during operational downtime by designing hardware for a sandwich-making robot.
+            %Participated in the first hackathon during operational downtime by designing hardware for a sandwich-making robot
     \end{itemize}
 
-    %{\bf {\em C L O U D S\/}} \hfill Fall 2014 - Spring 2015
-    %\begin{itemize} \itemsep-2pt
-        %\item Animated electronic displays interfaced with Arduino and Raspberry Pi systems with mathematical visualizations for the artist Yorgo Alexopolous. - {\em C++\/}
-    %\end{itemize}
+    {\bf {\em C L O U D S\/}} \hfill Fall 2014 - Spring 2015
+    \begin{itemize} \itemsep-2pt
+        \item Animated electronic displays interfaced with Arduino and Raspberry Pi systems with mathematical visualizations for the artist Yorgo Alexopolous - {\em C++\/}
+    \end{itemize}
 
     %{\bf Patent Law for Inventors} \hfill Summer 2012
     %\begin{itemize} \itemsep-2pt
-        %\item One of six students invited to a trial summer course in which each student conceived a patentable invention.
-        %\item Wrote a provisional patent application for a multi-pour bottle-attachment.
-        %\item Presented CAD models of the invention to the president of The Cooper Union.
+        %\item One of six students invited to a trial summer course in which each student conceived a patentable invention
+        %\item Wrote a provisional patent application for a multi-pour bottle-attachment
+        %\item Presented CAD models of the invention to the president of The Cooper Union
     %\end{itemize}
 
     \section{Publications}
-        {\bf Massively Parallel Neural Networks with CNTK on Spark} - Microsoft Journal of Applied Research \\
+        %{\bf Massively Parallel Neural Networks with CNTK on Spark} - Microsoft Journal of Applied Research \\
         {\bf \href{https://arxiv.org/pdf/1804.04031.pdf}{\underline{Flexible and Scalable Deep Learning with MMLSpark}}} - Journal of Machine Learning Research
 
     \section{Languages, Technologies, etc.}
     \begin{itemize} \itemsep-2pt
         \item
-            Scala, Rust, Julia, Java, Python, C++, Racket, Haskell
+            Scala, Rust, Julia, Java, Python, C++, Haskell
         \item
-            Linux/macOS, Bash, git, Spark, Docker, GitHub, Agile, TDD
+            Linux/macOS, Bash, git, Spark, Docker, GitHub, Agile
     \end{itemize}
 
     \section{Other Experiences}
 
-    {\bf Silent Mindfulness Meditation Retreats} \hfill 2016, 2017
+    {\bf Silent Mindfulness Meditation Retreats} \hfill 2016, 2017, 2019
 
 \end{resume}
 \end{document}
